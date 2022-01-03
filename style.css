@@ -1,3 +1,41 @@
-.main-content {
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+body,
+h1,
+h2,
+ul, 
+li {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration-skip-ink: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
     margin: 0 auto;
+    width: 80%;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180deg, rgb(193, 213, 238), rgb(220, 205, 223));
 }
