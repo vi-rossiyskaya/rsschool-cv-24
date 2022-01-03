@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Quicksand:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,13 +22,14 @@ li {
 body {
     min-height: 100vh;
     line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a,
 a:hover
 a:active {
-    text-decoration:none;
-    color: black;
+    text-decoration: none;
+    color: rgb(46, 113, 175);
 }
 
 
@@ -62,12 +63,46 @@ img {
     min-width: 300px;
     width: 100%;
     margin: 1vh 0;
+    padding: 1vh;
+}
+
+.name {
+    font-family: Licorice, Helvetica, Arial cursive;
+    margin: 1vh;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-photo {
+    border-radius: 50%;
+    margin: 5vh;
+}
+
+.contacts_left, .contacts_right {
+    width: 50%;
+}
+
+.code {
+    margin: 2vh 10vh;
+    background: rgba(255, 255, 255, 0.5);
+    border: #fff solid 2px;
+    padding: 1vh 5vh;
 }
 
 .footer {
+    padding: 1vh 10vh;
     display: flex;
     height: 10vh;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(180deg, rgb(188, 215, 240), rgb(196, 212, 236));
+}
+
+.year {
+    font-size: 3vh;
 }
