@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Rossiyskaya Victoria</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#projects">Project Example</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="name">Victoria Rossiyskaya</h1>
+            <section class="section contacts" id="contacts">
+                <div class="contacts_left">
+                    <img class="main-photo" src="https://avatars.githubusercontent.com/u/90865402?v=4" alt="main photo" width="200" height="200">
+                </div>
+                <div class="contacts_right">
+                    <h2>Contacts</h2>
+                    <ul>
+                    <li><a href="mailto:v.i.rossiyskaya@gmail.com"><strong>Mail</strong></a></li>
+                    <li><a href="https://github.com/vi-rossiyskaya"><strong>Github</strong></a></li>
+                    <li><a href="+88009999988"><strong>Phone</strong></a></li>
+                    <li><strong>Discord</strong>: victoria-rossiyskaya#8314</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section about" id="about">
+                <h2>About me</h2>
+                <p>RS School student, EPAM trainee. I am interested in visual art and programming</p>
+            </section>
+            <section class="section education" id="education">
+                <h2>Education</h2>
+                <p>Novosibirsk State University, V. Zelman Institute for the Medicine and Psychology, Psychology (Bachelor’s degree)</p>
+            </section>
+            <section class="section skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>    
+            </section>
+            <section class="section code-example" id="code-example">
+                <h2>Code Examples</h2>
+                <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+                <p>Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+                <p>Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                <pre class="code"><code>function (number){
+                let sum = 0;
+    
+                for(let i = 1; i &lt; number; i++){
+                if(i % 3 == 0 || i % 5 == 0){
+                sum += i
+                }
+                }
+                return sum;
+                }
+                </code></pre>
+            </section>
+            <section class="section projects" id="projects">
+                <h2>Project examples</h2>
+                    <ul>
+                        <li><a href="https://vi-rossiyskaya.github.io/landing-page/">Landing example</a></li>
+                        <li><a href="https://vi-rossiyskaya.github.io/slider/">Slider example</a></li>
+                    </ul>
+            </section>
+            <section class="section languages" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - B1</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/vi-rossiyskaya">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+        </a>
+        <span class="year"><strong>2022</strong></span>
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool logo" height="32"></a>
+    </footer>
+</body>
+</html>
