@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +11,8 @@ ul {
 
 body,
 h1,
+p,
+pre,
 h2,
 ul, 
 li {
@@ -20,8 +24,10 @@ body {
     line-height: 1.5;
 }
 
-a {
-    text-decoration-skip-ink: auto;
+a,
+a:hover
+a:active {
+    text-decoration:none;
 }
 
 img {
@@ -35,7 +41,31 @@ img {
 }
 
 .header {
-    height: 50px;
+    height: 10vh;
     width: 100%;
-    background: linear-gradient(180deg, rgb(193, 213, 238), rgb(220, 205, 223));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(188, 215, 240), rgb(196, 212, 236));
+}
+
+.nav-list {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.section {
+    background: linear-gradient(180deg, rgba(217, 206, 225, 0.2), rgba(224, 204, 221, 0.2));
+    min-width: 300px;
+    width: 100%;
+    margin: 1vh 0;
+}
+
+.footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgb(188, 215, 240), rgb(196, 212, 236));
 }
